@@ -97,21 +97,357 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+   /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   ~~~~~~~~~| MOBILE |~~~~~~~~~~~
+   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+   /*from 0px to 780px */
+/* ~~~~~~~ MOBILE HEADER ~~~~~~~~~~*/
+.contentLogo, .contentDrop {
+  padding: 1em;
+}
 
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
+.tabletContainer {
+  display: none;
+}
 
+/* ~~~~~~~~~ DROPDOWN ~~~~~~~~~~~*/
+.dropbtn {
+  background-color: #D3D3D3;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
 
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
 
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
 
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
 
+.dropdown-content a:hover {
+  background-color: #f1f1f1
+}
 
+.dropdown:hover .dropdown-content {
+  display: block;
+}
 
+.dropdown:hover .dropbtn {
+  background-color: #d2001b;
+}
 
+.dropdown-content .langue:hover {
+  background-color: #d2001b;
+  color : #FFFFFF;
+}
 
+.tabletContainer, .desktopContainer {
+  display: none;
+}
+/* ~~~~~~~~~ BUTTON ~~~~~~~~~~~*/
+.roundBtn {
+  background-color: #d2001b;
+  border-radius: 15px;
+  padding: 5px;
+  color: white;
+  max-width: 125px;
+}
+.roundOneSide {
+  background-color: #d11301;
+  border-radius: 0px 0px 10px 0px;
+  line-height: 25px;
+  white-space: nowrap;
+}
+.containerButton {
+  line-height: 44.8px;
+  white-space: nowrap;
+  position: relative;
+}
 
+/* background color buttons*/
+.darkRed {
+  background-color: #b10f01;
+}
 
+.red {
+  background-color: #cf1302;
+}
 
+.lightRed {
+  background-color: #ea2816;
+}
 
+.pastelRed {
+  background-color: #f95b4c;
+}
+
+/* ~~~~~~~~~ COMMUN RULES ~~~~~~~~~~~*/
+
+a {
+  text-decoration: none;
+}
+
+.textCenter, nav {
+  text-align: center;
+}
+
+.textRight {
+  text-align: right;
+}
+
+.inlineBlock {
+  display: inline-block;
+}
+
+.card {
+  background-color: #f2f1f1;
+  position: relative;
+  height: 100%;
+}
+
+.backgroundGray {
+  background-color: #f2f1f1;
+}
+
+.footerMobile {
+  margin-top: 5em;
+}
+
+html {
+  font-size: 0.8em;
+}
+
+h2 {
+  font-family: "Trebuchet MS", cursive;
+  font-weight: bold;
+  font-size: 16px;
+  color: #cf1302;
+  text-align: center;
+}
+
+p {
+  font-family: "Trebuchet MS";
+  font-weight: regular;
+  font-size: 12px;
+}
+
+/* ~~~~~~~~~ OTHERS RULES ~~~~~~~~~~~*/
+.floatRight {
+  float:right;
+}
+
+.floatLeft {
+  float: left;
+}
+div a {
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.welcome {
+  width: 100%;
+  margin-bottom: 5em;
+}
+
+.marginAuto {
+  margin:auto;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~| TABLET |~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*from 780px to 1280px */
+@media screen and (min-width: 780px) {
+
+  /* ~~~~~~~ TABLET HEADER ~~~~~~~~~~*/
+  .languageBtn {
+    background-color: #d11301;
+    border-radius: 0px 0px 10px 10px;
+    height: 44.8px;
+    line-height: 44.8px;
+    width:100px;
+  }
+
+  .mobileContainer {
+    display: none;
+  }
+
+  .tabletContainer {
+    width : 100vw;
+    display: inline-block;
+  }
+
+  .flottante {
+    margin: 2px;
+    width: 15%;
+  }
+
+  .flottante2 {
+    margin: 2px;
+    width: 55%;
+  }
+
+  .flottante3 {
+    margin: 2px;
+    width: 15%;
+  }
+
+  .marginLeft {
+    margin-left: 250px;
+  }
+
+  .marginRight {
+    margin-right: 250px;
+  }
+
+  .spacer {
+    clear: both;
+  }
+
+  .conteneur {
+    width: 100%;
+  }
+
+  /* nav bar */
+  nav ul li a{
+    color: #8b8b8b;
+    padding: 14px 16px;
+  }
+
+  li {
+    display: inline;
+  }
+
+  .welcome {
+    width: 40%;
+    margin : auto;
+    margin-bottom: 25em;
+  }
+
+  .leftBlock {
+    width: 35%;
+    margin-left:125px;
+  }
+
+  .rightBlock {
+    width: 40%;
+    margin-right: 125px;
+  }
+
+  .block {
+    display: inline-block;
+    width: 225px;
+    margin-left:5px;
+  }
+
+  .sliderContainer {
+    margin-top: 2em;
+    max-width: 200px;
+    max-height: 150px;
+  }
+
+  .resize {
+    width : 50%;
+    margin: auto;
+    text-align: center;
+  }
+
+  .contain {
+    height: 322.5px;
+  }
+
+  .marginTop {
+    margin-top: 50px;
+  }
+
+  .margin {
+    margin: 0;
+  }
+
+  .padding {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~| DESKTOP |~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*from 1280px onwards */
+@media screen and (min-width: 1280px) {
+  /* desktop header */
+    .tabletContainer {
+      display:none;
+    }
+    .desktopContainer {
+      display: inline-block;
+      width: 100vw;
+    }
+/* language button*/
+    .languageBtn {
+      width: 10%;
+      float: right;
+    }
+
+    .welcome {
+      width: 450px;
+    }
+    .imageContainer {
+      width: 60%;
+      display: inline-block;
+      vertical-align: top;
+      height:225px;
+    }
+
+    .imageContainer img {
+      width: 100%;
+      height: 270px;
+    }
+
+    .cardText {
+      width: 39%;
+      display: inline-block;
+      vertical-align: top;
+    }
+
+    .leftBlock {
+      margin-left: 155px;
+    }
+    .rightBlock{
+      margin-right: 155px;
+    }
+    .card {
+      height: 225px;
+    }
+
+    .padding {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+}
 
 /* ==========================================================================
    Helper classes
