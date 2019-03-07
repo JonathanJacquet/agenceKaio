@@ -349,12 +349,12 @@ div a {
 
   .leftBlock {
     width: 35%;
-    margin-left:120px;
+    margin-left:125px;
   }
 
   .rightBlock {
     width: 40%;
-    margin-right: 120px;
+    margin-right: 125px;
   }
 
   .block {
@@ -382,8 +382,16 @@ div a {
   .marginTop {
     margin-top: 50px;
   }
-}
 
+  .margin {
+    margin: 0;
+  }
+
+  .padding {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ~~~~~~~~~| DESKTOP |~~~~~~~~~~~
@@ -398,12 +406,12 @@ div a {
       display: inline-block;
       width: 100vw;
     }
-
+/* language button*/
     .languageBtn {
       width: 10%;
       float: right;
     }
-    
+
     .welcome {
       width: 450px;
     }
@@ -416,7 +424,7 @@ div a {
 
     .imageContainer img {
       width: 100%;
-      height: 100%;
+      height: 270px;
     }
 
     .cardText {
@@ -425,22 +433,21 @@ div a {
       vertical-align: top;
     }
 
-    .droite {
-      margin-left: 150px;
+    .leftBlock {
+      margin-left: 155px;
     }
-    .menu {
-      margin-right: 150px;
+    .rightBlock{
+      margin-right: 155px;
     }
     .card {
       height: 225px;
     }
+
+    .padding {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
 }
-
-
-
-
-
-
 
 /* ==========================================================================
    Helper classes
